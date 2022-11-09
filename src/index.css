@@ -1,0 +1,278 @@
+/* ************** NAVBAR ***************** */
+.toggler {
+  padding-left: 1em;
+}
+
+.search-btn {
+  padding-left: 14em;
+}
+
+
+/* **************TOP CHART ************** */
+.topCharts-main {
+  overflow-x: scroll;
+}
+
+.topItems-cont {
+
+  min-width: 20em;
+  background-color: #1a1e1f;
+  border-radius: 2em;
+}
+
+.top--images {
+  border-radius: 1em;
+  max-width: 6em;
+}
+
+.like {
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-radius: 50%;
+  margin-left: 8em;
+}
+
+/* *********** NEW RELEASES ************* */
+
+.newRel-cont {
+  overflow-x: scroll;
+}
+
+.newRel--img {
+  border-radius: 1em;
+}
+
+/* ************* ALBUM PAGE ************* */
+
+.album-page {
+  background-color: #1a1e1f;
+  background: linear-gradient(
+    to bottom,  transparent, #1a1e1f, #1a1e1f) ,url(./images/Lead-image-1.png)
+ ;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.album-image {
+  min-width: 20em;
+  padding: 1em;
+}
+
+.btn1 {
+  border-radius: 20px !important;
+  background-color: #323232;
+}
+
+.albums {
+  height: 4em;
+  width: 22em;
+  background-color: #232a2a;
+}
+
+.album--subimages {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 0.5em;
+}
+
+.pl-5 {
+  padding-left: 4em !important;
+}
+
+.rounded {
+  border-radius: 1em !important;
+}
+
+/* ***************** My collections ************* */
+
+.btn {
+  border-radius: 20px !important;
+}
+
+.page2-btn {
+  width: 10em;
+}
+
+.page2-image {
+  min-width: 20em;
+  max-height: 15em;
+  border-radius: 25px;
+}
+
+.image-div {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 2em;
+  left: 3em;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.image-text2 {
+  position: absolute;
+  bottom: 0.5em;
+  left: 3em;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+/* ********** CONTROLS *********** */
+
+.control {
+  min-width: 25em;
+  height: 6em;
+  background-color: rgba(255 ,255 ,255, .20);
+  position: fixed;
+  bottom: 0;
+  backdrop-filter: blur(15px);
+}
+
+.play-btn {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background-color: #FACD66;
+  text-align: center;
+}
+
+
+
+
+
+
+/* ************ MEDIA QUERIES ************ */
+
+
+@media screen and (min-width: 800px){
+.topItems-cont {
+
+    min-width: 30em;
+    height: 6.5em !important;
+    background-color: #1a1e1f;
+    border-radius: 1em;
+    padding-left: 1.5em !important;
+    margin-bottom: 1em;
+  }
+
+.topCharts-main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden !important;
+}
+
+.top--images {
+  border-radius: 0.5em;
+  max-width: 3em;
+}
+
+.sidebar {
+  width: 5em;
+  height: max-content;
+}
+
+.sidetab-1 {
+  height: 10em;
+  width: 2.5em;
+  border-radius: 1em;
+  background-color: #141617;
+  text-align: center;
+}
+
+.sidetab-2 {
+  height: 6em;
+  width: 2.5em;
+  border-radius: 1em;
+  background-color: #141617;
+  text-align: center;
+}
+
+.albums {
+  min-width: 77em;
+}
+
+.extra-padding {
+  padding-left: 58em !important;
+  padding-top: 1.5em !important;
+}
+
+.album-info {
+  font-size: 1em;
+}
+
+.album-info1 {
+  font-size: 0.7em;
+}
+
+.album-info-cont {
+  padding-left: 1.5em;
+}
+
+.newRel-cont {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  width: 75em;
+}
+
+::-webkit-scrollbar {
+  height: 0.5em;
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a1e1f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FACD66;
+  border-radius: 0.5em;
+}
+
+.control {
+  min-width: 90em;
+}
+
+input {
+  background-color: #141617;
+  border-radius: 1em;
+  border-style: none;
+  height: 2em;
+  text-align: center;
+}
+
+.page2-image {
+  min-width: 10em;
+  max-height: 15em;
+  border-radius: 25px;
+  margin-top: 2em !important;
+}
+
+.navlink-icon > path {
+  fill: #EFEEE01a !important;
+}
+
+.navlink-icon :hover {
+  fill: #EFEEE0 !important;
+}
+
+.navlink-icon.active path {
+  fill: #FACD66 !important;
+}
+
+.control-btns {
+  margin-left: 15em;
+}
+
+.like {
+  margin-left: 14em !important;
+  margin-top: 1em !important;
+  border-color: #323232;
+}
+
+}
